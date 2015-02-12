@@ -25,7 +25,7 @@ class CustomViewController: UIViewController, CountdownTimerDelegate {
 ## Start / Stop
 You can start and stop the timer with:
 
-```
+```swift
 timer.start() // Begins countdown
 timer.pause() // Pauses countdown
 timer.reset() // Pauses countdown and resets to the initial time
